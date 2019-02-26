@@ -55,7 +55,7 @@ This application provides following functionality:
 
 # Demo 
 
-![](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/new_Feb-23_-2019-8_19-PM-_online-video-cutter.com_.gif)
+![](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/test_video.gif)
 
 
 # Runestones Input
@@ -96,7 +96,7 @@ def get_point(event,x,y,flags,param):
         index = index +1    
 ```
 
-![recorded coordinate points](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/rocord_point.png)
+![recorded coordinate points](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/rocord_point.png)
 
 **Press 's' ket to save it** </br>
 按下's'鍵存入txt檔
@@ -117,7 +117,7 @@ def get_point(event,x,y,flags,param):
             f.write(str(x3)+"\n")
             f.write(str(y3)+"\n")
 ```
-![save](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/save.png)
+![save](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/save.png)
 
 **Perspective transform**
 ```python
@@ -128,7 +128,7 @@ M = cv2.getPerspectiveTransform(pts1,pts2)
 dst = cv2.warpPerspective(img,M,(300,250))
 ```
 
-![Perspective transform](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/Perspective_transform.png)
+![Perspective transform](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/Perspective_transform.png)
 
 
 **Grayscale**
@@ -137,7 +137,7 @@ dst = cv2.warpPerspective(img,M,(300,250))
 dst_gray = cv2.cvtColor(dst, cv2.COLOR_BGR2GRAY)
 ```
 
-![Grayscale](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/grayscale.png)
+![Grayscale](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/grayscale.png)
 
 
 **Thresholding**</br>
@@ -150,14 +150,14 @@ dst_gray = cv2.cvtColor(dst, cv2.COLOR_BGR2GRAY)
 th2 = cv2.adaptiveThreshold(dst_gray,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,11,2) 
 ```
 
-![Mean](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/mean.png)
+![Mean](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/mean.png)
 
 
 ```python
 #高斯法
 th3 = cv2.adaptiveThreshold(dst_gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY,11,2) 
 ```
-![Gaussian](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/gaussian.png)
+![Gaussian](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/gaussian.png)
 
 **The above two algorithms show that the image processed by the Mean shresholding has less noise and is more suitable as training data.**</br>
 (以上兩種演算法可看出，均值法處理完的影像noise較少，較適合當作training data)
@@ -241,9 +241,9 @@ I have used 840 images for training and 60 testing and trained the model for 15 
 
 - Accuracy & Loss
 
-![Accuracy](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/Acc.png)
+![Accuracy](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/Acc.png)
 
-![Loss](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/Loss.png)
+![Loss](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/Loss.png)
 
 # Confusion matrix </br>
 混淆矩陣 </br>
@@ -255,7 +255,7 @@ prediction = model.predict_classes(x_test)
 pd.crosstab(y_test_categories, prediction, rownames=['label'], colnames=['predict'])
 ```
 
-![onfusion matrix](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/confusion%20matrix.png)
+![confusion matrix](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/confusion%20matrix.png)
 
 
 # Shows the Runestone that is predicted to be wrong
@@ -267,7 +267,7 @@ print(df.shape)
 df[(df.label=='1')&(df.predict==4)]
 ```
 
-![label_predict](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/label_predict.png)
+![label_predict](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/label_predict.png)
 
 ```python
 from matplotlib import pyplot as plt
@@ -283,8 +283,8 @@ plot_image(x_test_copy[29])
 plot_image(x_test_copy[59])  
 ```
 
-![label29](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/label29.png)
-![label59](https://github.com/s90210jacklen/Recognition_Tower-of-Saviors/blob/master/label59.png)
+![label29](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/label29.png)
+![label59](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/label59.png)
 
 
 - It can be known that the attribute is a fire Runestone prediction error
