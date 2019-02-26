@@ -66,13 +66,13 @@ I used OpenCV to capture the image of the Runestones. In order to simplify the p
 - **Record four coordinate points** : Click the left button twice, left upper, upper right, lower left, and lower right corners to complete the coordinate record and press 's' key to save it in txt file.</br>
 紀錄四個座標點:依序點擊左上, 右上, 左下, 右下角各兩下完成座標的紀錄, 並按下's'鍵將其存入txt檔
 - **Perspective transform** : Perspective Transformation is the projecting of a picture into a new Viewing Plane, also known as Projective Mapping.</br>
-透視變換(Perspective Transformation)是將圖片投影到一個新的視平面(Viewing Plane)，也稱作投影映射(Projective Mapping)
+透視變換是將圖片投影到一個新的視平面(Viewing Plane)，也稱作投影映射(Projective Mapping)
 
 - **Grayscale** : Converting Image to Grayscale.</br>
 將影像轉成灰階
 
 - **Thresholding** : Thresholding is the simplest method of image segmentation. From a grayscale image, thresholding can be used to create binary images.</br>
-二值化（Thresholding）是圖像分割的一種最簡單的方法。二值化可以把灰度圖像轉換成二值圖像。</br></br>
+二值化是圖像分割的一種最簡單的方法，可以把灰度圖像轉換成二值圖像。</br></br>
 
 **Record four coordinate points** </br>
 紀錄4個座標點
