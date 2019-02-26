@@ -4,15 +4,13 @@ Runestones recognition for the Tower of Saviors via CNN neural network implement
 
 # Contents
 
-[代码](https://github.com/ljpzzz/machinelearning/blob/master/reinforcement-learning/sarsa_windy_world.py)
-
-- [**new_Tower of Saviors finalproject.py**](https://github.com/ljpzzz/machinelearning/blob/master/reinforcement-learning/sarsa_windy_world.py) : The main script launcher. This file contains all the code for UI options and OpenCV code to capture camera contents.</br> 
+- [**new_Tower of Saviors finalproject.py**](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/new_Tower%20of%20Saviors_final%20project.py) : The main script launcher. This file contains all the code for UI options and OpenCV code to capture camera contents.</br> 
 啟動此專案的檔案，其中包含了OpenCV的程式碼來讀取影像
 
-- **new_keras_cnn_神魔之塔-optimized-restore-model.ipynb** : This script file holds all the CNN specific code to create CNN model, load the weight file.</br> 
+- [**new_keras_cnn_神魔之塔-optimized-restore-model.ipynb**](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/new_keras_cnn_%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94-optimized-restore-model.ipynb) : This script file holds all the CNN specific code to create CNN model, load the weight file.</br> 
 先前用來處理原始的資料，並以CNN的架構訓練模型
 
-- **final_model_weights_new.h5** : This is pretrained file.</br> 
+- [**final_model_weights_new.h5**](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/final_model_weights_new.h5) : This is pretrained file.</br> 
 先前訓練好的模型權重
 
 - **final_model_new.json** : This is pretrained file.</br>
