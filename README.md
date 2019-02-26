@@ -13,7 +13,7 @@ Runestones recognition for the Tower of Saviors via CNN neural network implement
 - [**final_model_weights_new.h5**](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/final_model_weights_new.h5) : This is pretrained file.</br> 
 先前訓練好的模型權重
 
-- **final_model_new.json** : This is pretrained file.</br>
+- [**final_model_new.json**](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/final_model_new.json) : This is pretrained file.</br>
 先前所使用的模型架構
 
 # Usage
