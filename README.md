@@ -165,7 +165,7 @@ th3 = cv2.adaptiveThreshold(dst_gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRE
 (以上兩種演算法可看出，均值法處理完的影像noise較少，較適合當作training data)
 
 ## CNN Model used
-**Using the Keras CNN Sequential model with 4 Convolution Layer**
+**Using the Keras CNN Sequential model with 4 Convolution Layer**</br>
 (使用Keras的Sequential來建立4層Convolution的模型)
 
 ```python
