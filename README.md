@@ -252,7 +252,7 @@ I have used 840 images for training and 60 for testing and trained the model for
 ![Loss](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/Loss.png)
 
 # Confusion matrix </br>
-混淆矩陣 </br>
+混淆矩陣 </br></br>
 **The diagonal is correct for prediction and the non-diagonal is for prediction error**</br>
 對角線為預測正確，非對角線為預測錯誤
 ```python
