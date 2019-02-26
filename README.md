@@ -54,6 +54,8 @@ This application provides following functionality:
 
 
 # Demo 
+- The middle window is the predicted image of the CNN model, and the right window is the correct answer.
+中間的視窗為CNN模型所預測的畫面,右邊視窗則為正確答案
 
 ![](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/test_video.gif)
 
