@@ -293,5 +293,5 @@ plot_image(x_test_copy[59])
 ![label59](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/label59.png)
 
 
-- It can be known that the attribute is a fire Runestone prediction error
+- It can be known that the attribute is a fire Runestone prediction error</br>
  可得知火屬性的符石預測錯誤
