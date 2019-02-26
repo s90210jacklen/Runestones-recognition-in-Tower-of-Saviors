@@ -27,15 +27,15 @@ eg: With Tensorflow as backend
 Click the left button twice, left upper, upper right, lower left, and lower right corners to complete the coordinate record and press 's' key to save it in txt file.</br>
 (紀錄四個座標點:依序點擊左上, 右上, 左下, 右下角各兩下完成座標的紀錄, 並按下's'鍵將其存入txt檔)
 
-- **Step2:**:
+- **Step2:**
 Press the 't' key to start execution.</br> 
 (按下't'鍵開始執行)
 
-- **Step3:**:
+- **Step3:**
 Spin the runestones and back to Step2 or proceed to the next step. </br> 
 (開始轉珠並回到步驟2,或者繼續到下一步)
 
-- **Step4:**:
+- **Step4:**
 Press the 'q' key to exit. </br> 
 (按下'q'結束程式)
 
