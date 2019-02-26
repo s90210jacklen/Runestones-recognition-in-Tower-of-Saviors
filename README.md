@@ -4,7 +4,9 @@ Runestones recognition for the Tower of Saviors via CNN neural network implement
 
 # Contents
 
-- **new_Tower of Saviors finalproject.py** : The main script launcher. This file contains all the code for UI options and OpenCV code to capture camera contents.</br> 
+[代码](https://github.com/ljpzzz/machinelearning/blob/master/reinforcement-learning/sarsa_windy_world.py)
+
+- [**new_Tower of Saviors finalproject.py**](https://github.com/ljpzzz/machinelearning/blob/master/reinforcement-learning/sarsa_windy_world.py) : The main script launcher. This file contains all the code for UI options and OpenCV code to capture camera contents.</br> 
 啟動此專案的檔案，其中包含了OpenCV的程式碼來讀取影像
 
 - **new_keras_cnn_神魔之塔-optimized-restore-model.ipynb** : This script file holds all the CNN specific code to create CNN model, load the weight file.</br> 
