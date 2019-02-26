@@ -62,7 +62,7 @@ This application provides following functionality:
 I used OpenCV to capture the image of the Runestones. In order to simplify the processing of images, I recorded four coordinate points to highlight contours & edges. Finally, use perspective transform & grayscale & thresholding for images.
 
 - **Record four coordinate points** : Click the left button twice, left upper, upper right, lower left, and lower right corners to complete the coordinate record and press 's' key to save it in txt file.</br>
-(紀錄四個座標點:依序點擊左上, 右上, 左下, 右下角各兩下完成座標的紀錄, 並按下's'鍵將其存入txt檔)
+紀錄四個座標點:依序點擊左上, 右上, 左下, 右下角各兩下完成座標的紀錄, 並按下's'鍵將其存入txt檔
 - **Perspective transform** : Perspective Transformation is the projecting of a picture into a new Viewing Plane, also known as Projective Mapping.</br>
 透視變換(Perspective Transformation)是將圖片投影到一個新的視平面(Viewing Plane)，也稱作投影映射(Projective Mapping)
 
