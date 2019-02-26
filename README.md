@@ -243,7 +243,7 @@ Non-trainable params: 0
 
 # Training
 I have used 840 images for training and 60 for testing and trained the model for 15 epochs.</br>
-使用了840影像作訓練，60張影像作為測試
+使用了840影像作訓練，60張影像作為測試，並設定epoch為15次
 
 - Accuracy & Loss
 
