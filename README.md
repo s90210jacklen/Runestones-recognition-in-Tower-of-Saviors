@@ -242,7 +242,8 @@ Non-trainable params: 0
 **Test accuracy: 0.9666666746139526**
 
 # Training
-I have used 840 images for training and 60 testing and trained the model for 15 epochs.</br>
+I have used 840 images for training and 60 for testing and trained the model for 15 epochs.</br>
+使用了840影像作訓練，60張影像作為測試
 
 - Accuracy & Loss
 
