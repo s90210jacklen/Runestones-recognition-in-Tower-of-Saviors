@@ -100,7 +100,7 @@ def get_point(event,x,y,flags,param):
 
 ![recorded coordinate points](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/rocord_point.png)
 
-**Press 's' ket to save it** </br>
+**Press 's' key to save it** </br>
 按下's'鍵存入txt檔
 
 ```python
