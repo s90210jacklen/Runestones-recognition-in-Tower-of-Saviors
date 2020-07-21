@@ -1,6 +1,6 @@
-# Runestones recognition for the Tower of Saviors
+# Runestones recognition in Tower of Saviors
 以CNN架構實現神魔之塔中符石的屬性辨識 (使用Keras + OpenCV)</br></br> 
-Runestones recognition for the Tower of Saviors via CNN neural network implemented in Keras + OpenCV
+Runestones recognition in Tower of Saviors via CNN neural network implemented in Keras + OpenCV
 
 # Contents
 
@@ -264,7 +264,7 @@ pd.crosstab(y_test_categories, prediction, rownames=['label'], colnames=['predic
 ![confusion matrix](https://github.com/s90210jacklen/Runestones-recognition-for-the-Tower-of-Saviors/blob/master/confusion%20matrix.png)
 
 
-# Shows the Runestone that is predicted to be wrong
+# Show the Runestone that were predicted incorrectly
 顯示預測錯誤的符石
 ```python
 df = pd.DataFrame( {'label':y_test_categories, 'predict':prediction} )
